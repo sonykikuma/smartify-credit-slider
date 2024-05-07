@@ -9,9 +9,11 @@ How to Use
 # Create a new React project if you haven't already
 
 npm create vite@latest
+
 cd my-project
 
 npm install
+
 npm run dev
 
 1.Installation: Before using the Credit component, ensure that your project has @mui/material installed. If not, you can add it by running:
