@@ -134,14 +134,12 @@ export default function Credit() {
             max={5000}
             sx={{
               "& .MuiSlider-thumb": {
-                color: "common.white", // Sets the background color of the thumb to white
+                color: "common.white", // Sets the color of the thumb to white
 
-                //color: "secondary.main", // Change thumb color to secondary
                 width: 24, // Size of the thumb
                 height: 24, // Size of the thumb
-                //borderColor: "secondary.main", // Uses the secondary color for the border
 
-                border: "6px solid #A020F0", // Thick white border to create the inner circle effect
+                border: "6px solid #A020F0",
               },
               "& .MuiSlider-track": {
                 bgcolor: "secondary.main", // Change color of the track (left of the thumb)
